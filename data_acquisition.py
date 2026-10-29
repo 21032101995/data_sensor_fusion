@@ -85,7 +85,7 @@ def main_process():
     credentials.connect()
 
     # MQTT Setup
-    mqtt_conn = mqtt_connection("192.168.68.103", 1883, "esp32/sensors")
+    mqtt_conn = mqtt_connection("192.168.68.102", 1883, "esp32/sensors")
     mqtt_conn.connect()
 
     # ADC Setup
